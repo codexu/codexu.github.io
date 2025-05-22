@@ -1,0 +1,36 @@
+name: Update Docs
+
+on:
+  push:
+    branches:
+      - main
+
+  workflow_dispatch:
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [20.19.1]
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: use pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 8
+
+      - name: install and build
+        run: |
+          cd docs
+          pnpm install
+          pnpm run build
+
+      - name: deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: docs/.vitepress/dist
+          publish_branch: gh-pages
