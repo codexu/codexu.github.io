@@ -30,4 +30,8 @@ features:
     details: 支持自定义配置主流 AI 模型，协助你完成记录、写作、整理等任务。
 ---
 
+<Home />
 
+<script setup lang="ts">
+import Home from './components/Home.vue'
+</script>
