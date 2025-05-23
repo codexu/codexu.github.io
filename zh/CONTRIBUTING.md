@@ -10,16 +10,16 @@ Hi! 非常感谢你参与 NoteGen 的贡献！在此之前，请花一些时间�
 
 ### Issues
 
-请始终使用 https://github.com/codexu/note-gen/issues 创建新问题，尽量详细描述问题，包括重现步骤、预期行为和实际行为。
+请始终使用 [Issues](https://github.com/codexu/note-gen/issues) 创建新问题，尽量详细描述问题，包括重现步骤、预期行为和实际行为。
 
 ### Discussions
 
-如果你想发起讨论，可以使用 https://github.com/codexu/note-gen/discussions，或加入 [交流群](https://github.com/codexu/note-gen/discussions/110)。
+如果你想发起讨论，可以使用 [Discussions](https://github.com/codexu/note-gen/discussions)，或加入 [交流群](https://github.com/codexu/note-gen/discussions/110)。
 
 ### Pull Request
 
-- 在修复 bug 前，请先检查 issues 是否具有相同的问题。
-- 如果你要开发一个功能，请先提交 issue，与项目维护者讨论该功能是否被需要，这有助于节省维护者和贡献者的时间。
+- 在修复 bug 前，请先检查 [Issues](https://github.com/codexu/note-gen/issues) 是否具有相同的问题。
+- 如果你要开发一个功能，请先提交 [Issue](https://github.com/codexu/note-gen/issues)，与项目维护者讨论该功能是否被需要，这有助于节省维护者和贡献者的时间。
 
 ## 技术栈
 
