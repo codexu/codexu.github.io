@@ -13,14 +13,8 @@ export default defineConfig({
     ],
     [
       'script',
-      {
-        innerHTML: `
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-SEWZ8WZX0C');
-        `
-      }
+      {},
+      "window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-SEWZ8WZX0C');"
     ]
   ],
   themeConfig: {
