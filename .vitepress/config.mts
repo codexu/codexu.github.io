@@ -3,9 +3,37 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'NoteGen',
   description: 'NoteGen',
+  head: [
+    [
+      'script',
+      {
+        async: '',
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-SEWZ8WZX0C'
+      }
+    ],
+    [
+      'script',
+      {
+        innerHTML: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-SEWZ8WZX0C');
+        `
+      }
+    ]
+  ],
   themeConfig: {
     logo: '/app-icon.png',
     logoLink: '/',
+    editLink: {
+      pattern: 'https://github.com/codexu/note-gen-docs/edit/main/:path',
+      text: 'Edit this page on GitHub'
+    },
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2024-present codexu'
+    }
   },
   locales: {
     root: {
