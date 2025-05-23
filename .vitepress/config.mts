@@ -45,8 +45,8 @@ export default defineConfig({
           {
             text: '从此开始',
             items: [
-              { text: '项目简介', link: '/zh/introduction' },
-              { text: '客户端安装', link: '/zh/getting-started' },
+              { text: '项目简介', link: '/zh/guide' },
+              { text: '客户端安装', link: '/zh/download' },
             ]
           },
           {
