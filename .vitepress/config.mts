@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: 'NoteGen',
-  description: 'NoteGen',
+  description: 'NoteGen 官方文档',
   head: [
     [
       'script',
