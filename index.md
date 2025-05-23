@@ -13,25 +13,40 @@ hero:
     height: 180
   actions:
     - theme: brand
+      text: 下载客户端
+      link: /zh/download
+    - theme: alt
       text: 快速入门
       link: /zh/guide
     - theme: alt
-      text: 下载
-      link: /zh/download
+      text: Github
+      link: https://github.com/codexu/note-gen
 
 features:
   - title: 轻量
+    icon:
+      light: /box.svg
+      dark: /box_white.svg
     details: 安装包仅十几兆，免费且无任何广告，无任何捆绑。
-  - title: 跨端
-    details: 支持 Mac、Windows、Linux，得益于 Tauri2 的跨平台能力，未来将支持 IOS、Android
+  - title: 全平台支持
+    icon:
+      light: /monitor.svg
+      dark: /monitor_white.svg
+    details: 支持 Mac、Windows、Linux，即将支持 IOS、Android。
   - title: 数据安全
-    details: 本地离线，原生 Markdown 格式，支持同步 Github、Gitee、WebDAV。
+    icon:
+      light: /shield.svg
+      dark: /shield_white.svg
+    details: 本地离线存储，支持同步到 Github、Gitee、WebDAV。
   - title: AI 助手
+    icon:
+      light: /bot.svg
+      dark: /bot_white.svg
     details: 支持自定义配置主流 AI 模型，协助你完成记录、写作、整理等任务。
 ---
 
-<Home />
+<FeatureShow />
 
-<script setup lang="ts">
-import Home from './components/Home.vue'
+<script setup>
+import FeatureShow from './components/FeatureShow.vue'
 </script>

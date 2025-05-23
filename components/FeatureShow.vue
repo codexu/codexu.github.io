@@ -1,4 +1,9 @@
 <template>
+  <div class="feature-intro">
+    <h2>记录 & 写作</h2>
+    <p>NoteGen = Note + Generator</p>
+    <p>常规的笔记，通常不会提供记录的功能，用户需要手动进行复制粘贴的操作进行记录，大大降低了记录的效率，而面对零散的记录内容时，更是需要花费大量的精力进行整理。</p>
+  </div>
   <div class="features">
     <div v-for="(item, index) in items" :key="index" class="feature">
       <div class="feature-content">
@@ -7,6 +12,16 @@
       </div>
       <div class="feature-img">
         <img :src="item.src" :alt="item.alt">
+      </div>
+    </div>
+  </div>
+  <div class="feature-intro">
+    <h2>享受开源的乐趣，从现在开始</h2>
+    <p>永久免费，无任何广告，无任何捆绑，无任何限制。</p>
+    <p>使用它，改造它，分享它，让更多人享受到开源的乐趣。</p>
+    <div class="button-container">
+      <div>
+        <a class="button" target="_blank" href="https://github.com/codexu/note-gen">参与开源</a>
       </div>
     </div>
   </div>
@@ -31,6 +46,49 @@ const items = computed(() => [
 </script>
 
 <style scoped lang="scss">
+.feature-intro {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px;
+  border-radius: 12px;
+  h2 {
+    line-height: 4rem;
+    text-align: center;
+    border-top: none;
+    font-size: 3rem;
+  }
+  p {
+    max-width: 640px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .button-container {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 16px;
+    div {
+      display: flex;
+      gap: 16px;
+      .button {
+        border-color: var(--vp-button-brand-border);
+        color: var(--vp-button-brand-text);
+        background-color: var(--vp-button-brand-bg);
+        border-radius: 20px;
+        padding: 0 20px;
+        line-height: 38px;
+        font-size: 14px;
+        height: 38px;
+        text-align: center;
+        text-decoration: none;
+      }
+    }
+  }
+}
 .features {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -54,6 +112,7 @@ const items = computed(() => [
       flex: 1;
       flex-direction: column;
       justify-content: start;
+      text-align: center;
       h2 {
         font-size: 24px;
         padding: 0;
@@ -63,6 +122,7 @@ const items = computed(() => [
     }
   }
 }
+
 @media screen and (max-width: 768px) {
   .features {
     grid-template-columns: repeat(1, 1fr);
