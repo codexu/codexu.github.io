@@ -26,6 +26,8 @@ jobs:
         run: |
           pnpm install
           pnpm run build
+          cd .vitepress/dist
+          echo "note-gen.top" > CNAME
 
       - name: deploy
         uses: peaceiris/actions-gh-pages@v3
