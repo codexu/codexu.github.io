@@ -33,7 +33,10 @@ export default defineConfig({
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2024-present codexu'
-    }
+    },
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/codexu/note-gen' }
+    ]
   },
   locales: {
     root: {
@@ -41,6 +44,24 @@ export default defineConfig({
       lang: 'zh',
       link: '/zh/guide',
       themeConfig: {
+        nav: [
+          {
+            text: '指南',
+            link: '/zh/guide'
+          },
+          {
+            text: '下载',
+            link: '/zh/download'
+          },
+          {
+            text: '贡献指南',
+            link: '/zh/CONTRIBUTING.md'
+          },
+          {
+            text: '更新日志',
+            link: 'https://github.com/codexu/note-gen/releases'
+          },
+        ],
         sidebar: [
           {
             text: '从此开始',
