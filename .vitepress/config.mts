@@ -67,11 +67,21 @@ export default defineConfig({
           {
             text: '功能介绍',
             items: [
-              { text: '记录', link: '/zh/preview/record' },
-              { text: 'AI 助手', link: '/zh/preview/chat' },
-              { text: 'AI 整理', link: '/zh/preview/organize' },
-              { text: '写作', link: '/zh/preview/writing' },
-              { text: '数据同步', link: '/zh/preview/sync' },
+              { 
+                text: '记录',
+                items: [
+                  { text: '记录工具', link: '/zh/preview/record' },
+                  { text: 'AI 助手', link: '/zh/preview/chat' },
+                  { text: 'AI 整理', link: '/zh/preview/organize' },
+                ]
+              },
+              { 
+                text: '写作',
+                items: [
+                  { text: '文件管理器', link: '/zh/preview/writing' },
+                  { text: 'Markdown 编辑器', link: '/zh/preview/writing' },
+                ]
+              },
               { text: '图床', link: '/zh/preview/image' },
               { text: '全局搜索', link: '/zh/preview/search' },
             ]
