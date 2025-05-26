@@ -116,7 +116,7 @@ export default defineConfig({
             items: [
               { text: '常见问题', link: '/zh/faq' },
               { text: '反馈', link: '/zh/feedback' },
-              { text: '更新日志', link: '/zh/changelog' },
+              { text: '更新日志', link: 'https://github.com/codexu/note-gen/releases' },
             ]
           }
         ]
