@@ -78,7 +78,7 @@ export default defineConfig({
               { 
                 text: '写作',
                 items: [
-                  { text: '文件管理器', link: '/zh/preview/writing' },
+                  { text: '文件管理器', link: '/zh/preview/files' },
                   { text: 'Markdown 编辑器', link: '/zh/preview/writing' },
                 ]
               },
