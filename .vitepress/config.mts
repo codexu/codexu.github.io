@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: 'NoteGen',
-  description: 'NoteGen 官方文档',
+  description: 'NoteGen 官方文档，一款跨平台的 Markdown AI 笔记软件，致力于使用 AI 建立记录和写作的桥梁',
   head: [
     [
       'script',
@@ -15,7 +15,14 @@ export default defineConfig({
       'script',
       {},
       "window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-SEWZ8WZX0C');"
-    ]
+    ],
+    ['meta', { name: 'author', content: 'codexu' }],
+    ['meta', { name: 'keywords', content: 'markdown,nextjs,chatbot,webdav,assistant,openai,note-taking,notes-app,tauri,llm' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:title', content: 'NoteGen' }],
+    ['meta', { property: 'og:description', content: 'NoteGen 官方文档' }],
+    ['meta', { property: 'og:image', content: 'https://notegen.top/app-icon.png' }],
+    ['link', { rel: 'canonical', href: 'https://notegen.top' }]
   ],
   themeConfig: {
     logo: '/app-icon.png',
