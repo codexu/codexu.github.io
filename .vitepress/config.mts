@@ -82,8 +82,8 @@ export default defineConfig({
                   { text: 'Markdown 编辑器', link: '/zh/preview/writing' },
                 ]
               },
-              { text: '图床', link: '/zh/preview/image' },
               { text: '全局搜索', link: '/zh/preview/search' },
+              { text: '图床', link: '/zh/preview/image' },
             ]
           },
           {
