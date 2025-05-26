@@ -24,6 +24,9 @@ export default defineConfig({
     ['meta', { property: 'og:image', content: 'https://notegen.top/app-icon.png' }],
     ['link', { rel: 'canonical', href: 'https://notegen.top' }]
   ],
+  sitemap: {
+    hostname: 'https://notegen.top'
+  },
   themeConfig: {
     logo: '/app-icon.png',
     logoLink: '/',
