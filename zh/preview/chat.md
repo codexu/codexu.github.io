@@ -52,6 +52,10 @@ AI 模型，包括模型名称和厂商名称，仅作展示。
 
 开启后，AI 对话时会携带当前标签内的所有记录信息。
 
+<h3><Book /> 知识库检索</h3>
+
+通过 RAG（Retrieval Augmented Generation）技术，对已有的文章进行检索，用以提高 AI 对话的质量，需要配置嵌入模型（必选）和重排序模型（可选）。
+
 <h3><Lightbulb />AI 建议</h3>
 
 根据对话和记录，AI 会提供一些建议，生成于 placeholder，使用 `TAB` 键可使用建议。
@@ -77,7 +81,7 @@ AI 模型，包括模型名称和厂商名称，仅作展示。
 对话框右侧为切换`整理/聊天`模式，按钮也随之切换。
 
 <script setup>
-import { Drama, BotMessageSquare, MessageSquarePlus, Trash2, Globe, Link, Lightbulb, Clipboard, AlignVerticalJustifyCenter, Eraser } from 'lucide-vue-next'
+import { Drama, BotMessageSquare, MessageSquarePlus, Trash2, Globe, Link, Lightbulb, Clipboard, AlignVerticalJustifyCenter, Eraser, Book } from 'lucide-vue-next'
 </script>
 
 <style scoped>
