@@ -35,12 +35,12 @@ const items = computed(() => [
   {
     src: isDark.value ? 'https://s2.loli.net/2025/05/23/oEvigIts459qyUX.jpg' : 'https://s2.loli.net/2025/05/23/vGN4wMz8IJDEe62.jpg',
     title: '记录',
-    description: '记录功能是由内容记录和 AI 助手组成，将对话模式切换为整理模式，可以将记录整理成一篇可读的笔记。',
+    description: '记录功能是由内容记录和 AI 助手组成，模式分为对话模式和整理模式，对话模式下，AI 助手可以协助你完成记录，整理模式下，AI 助手可以协助你将记录整理成一篇可读的笔记。',
   },
   {
     src: isDark.value ? 'https://s2.loli.net/2025/05/23/OB7nR31HgptlxZ6.png' : 'https://s2.loli.net/2025/05/23/nafSLluZvXrNqVF.jpg',
     title: '写作',
-    description: '写作功能是由文件管理器和 Markdown 编辑器组成，支持所见即所得，AI 写作辅助，版本控制，同步等功能。',
+    description: '写作功能是由文件管理器和 Markdown 编辑器组成，支持所见即所得，AI 写作辅助，版本控制，同步等功能。同时，通过 RAG 技术，对已有的文章进行检索，用以提高 AI 对话的质量。',
   },
 ])
 </script>
@@ -118,6 +118,9 @@ const items = computed(() => [
         padding: 0;
         margin: 0;
         border: none;
+      }
+      p {
+        text-align: left;
       }
     }
   }
