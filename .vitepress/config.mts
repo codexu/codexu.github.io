@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: 'NoteGen - 专注于记录和写作的 Markdown AI 笔记软件 | Cross-platform AI Note-taking App',
+  title: 'NoteGen',
   description: 'NoteGen是一款跨平台的 Markdown AI 笔记软件，致力于使用人工智能建立记录和写作的桥梁。NoteGen is a cross-platform Markdown AI note-taking software that bridges recording and writing with artificial intelligence.',
   head: [
     [
