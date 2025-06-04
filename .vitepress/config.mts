@@ -1,8 +1,8 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: 'NoteGen',
-  description: 'NoteGen 官方文档，一款跨平台的 Markdown AI 笔记软件，致力于使用 AI 建立记录和写作的桥梁',
+  title: 'NoteGen - 专注于记录和写作的 Markdown AI 笔记软件 | Cross-platform AI Note-taking App',
+  description: 'NoteGen是一款跨平台的 Markdown AI 笔记软件，致力于使用人工智能建立记录和写作的桥梁。NoteGen is a cross-platform Markdown AI note-taking software that bridges recording and writing with artificial intelligence.',
   head: [
     [
       'script',
@@ -17,12 +17,18 @@ export default defineConfig({
       "window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-SEWZ8WZX0C');"
     ],
     ['meta', { name: 'author', content: 'codexu' }],
-    ['meta', { name: 'keywords', content: 'markdown,nextjs,chatbot,webdav,assistant,openai,note-taking,notes-app,tauri,llm' }],
+    ['meta', { name: 'keywords', content: 'markdown,nextjs,chatbot,webdav,assistant,openai,note-taking,notes-app,tauri,llm,AI笔记,人工智能笔记,AI助手,跨平台笔记,AI写作,markdown编辑器,ai note,artificial intelligence,cross-platform,note-taking app' }],
     ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:title', content: 'NoteGen' }],
-    ['meta', { property: 'og:description', content: 'NoteGen 官方文档' }],
+    ['meta', { property: 'og:title', content: 'NoteGen - AI驱动的跨平台笔记应用 | Cross-platform AI Note-taking App' }],
+    ['meta', { property: 'og:description', content: 'NoteGen是一款跨平台的 Markdown AI 笔记软件，致力于使用人工智能建立记录和写作的桥梁' }],
     ['meta', { property: 'og:image', content: 'https://notegen.top/app-icon.png' }],
-    ['link', { rel: 'canonical', href: 'https://notegen.top' }]
+    ['link', { rel: 'canonical', href: 'https://notegen.top' }],
+    ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
+    ['meta', { name: 'format-detection', content: 'telephone=no' }],
+    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+    ['link', { rel: 'alternate', hreflang: 'zh', href: 'https://notegen.top/zh/guide' }],
+    ['link', { rel: 'alternate', hreflang: 'en', href: 'https://notegen.top/en/guide' }],
+    ['link', { rel: 'alternate', hreflang: 'x-default', href: 'https://notegen.top' }]
   ],
   sitemap: {
     hostname: 'https://notegen.top'
