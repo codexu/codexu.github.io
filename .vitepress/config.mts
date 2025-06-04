@@ -127,11 +127,75 @@ export default defineConfig({
       lang: 'en',
       link: '/en/guide',
       themeConfig: {
+        nav: [
+          {
+            text: 'Guide',
+            link: '/en/guide'
+          },
+          {
+            text: 'Download',
+            link: '/en/download'
+          },
+          {
+            text: 'Contribution Guide',
+            link: '/en/CONTRIBUTING.md'
+          },
+          {
+            text: 'Changelog',
+            link: 'https://github.com/codexu/note-gen/releases'
+          },
+        ],
         sidebar: [
           {
             text: 'Getting Started',
             items: [
-              { text: 'Download', link: '/en/download' },
+              { text: 'Introduction', link: '/en/guide' },
+              { text: 'Client Installation', link: '/en/download' },
+            ]
+          },
+          {
+            text: 'Features',
+            items: [
+              { 
+                text: 'Recording',
+                items: [
+                  { text: 'Recording Tools', link: '/en/preview/record' },
+                  { text: 'AI Assistant', link: '/en/preview/chat' },
+                  { text: 'AI Organization', link: '/en/preview/organize' },
+                ]
+              },
+              { 
+                text: 'Writing',
+                items: [
+                  { text: 'File Manager', link: '/en/preview/files' },
+                  { text: 'Markdown Editor', link: '/en/preview/writing' },
+                ]
+              },
+              { text: 'Global Search', link: '/en/preview/search' },
+              { text: 'Image Hosting', link: '/en/preview/image' },
+            ]
+          },
+          {
+            text: 'Configuration Guide',
+            items: [
+              { text: 'AI', link: '/en/settings/model-config' },
+              { text: 'Default Model', link: '/en/settings/default-model' },
+              { text: 'Prompt', link: '/en/settings/prompt' },
+              { text: 'Organization Template', link: '/en/settings/organize-template' },
+              { text: 'Synchronization', link: '/en/settings/sync' },
+              { text: 'File Management', link: '/en/settings/file-manager' },
+              { text: 'OCR', link: '/en/settings/ocr' },
+              { text: 'Shortcuts', link: '/en/settings/shortcut' },
+              { text: 'Appearance', link: '/en/settings/appearance' },
+              { text: 'Developer', link: '/en/settings/developer' },
+            ]
+          },
+          {
+            text: 'Issues & Feedback',
+            items: [
+              { text: 'FAQ', link: '/en/faq' },
+              { text: 'Feedback', link: '/en/feedback' },
+              { text: 'Changelog', link: 'https://github.com/codexu/note-gen/releases' },
             ]
           }
         ]
