@@ -112,7 +112,6 @@ export default defineConfig({
               { text: '同步', link: '/zh/settings/sync' },
               { text: '文件管理', link: '/zh/settings/file-manager' },
               { text: 'OCR', link: '/zh/settings/ocr' },
-              { text: '快捷键', link: '/zh/settings/shortcut' },
               { text: '外观', link: '/zh/settings/appearance' },
               { text: '开发者', link: '/zh/settings/developer' },
             ]
@@ -191,7 +190,6 @@ export default defineConfig({
               { text: 'Synchronization', link: '/en/settings/sync' },
               { text: 'File Management', link: '/en/settings/file-manager' },
               { text: 'OCR', link: '/en/settings/ocr' },
-              { text: 'Shortcuts', link: '/en/settings/shortcut' },
               { text: 'Appearance', link: '/en/settings/appearance' },
               { text: 'Developer', link: '/en/settings/developer' },
             ]

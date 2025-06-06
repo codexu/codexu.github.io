@@ -28,6 +28,10 @@ Enter your corresponding key here. For Ollama, LM Studio, etc., you can fill in 
 
 Generally, once the BaseURL and API Key are configured correctly, available models will be automatically retrieved and presented in a dropdown list. If they cannot be retrieved, you can enter them manually.
 
+### Model Type
+
+Select the model type to distinguish different models. Choosing the wrong model type may cause it to not function properly.
+
 ### Temperature
 
 The sampling temperature to use, between 0 and 2. Higher values (like 0.8) will make the output more random, while lower values (like 0.2) will make it more focused and deterministic. We generally recommend altering this or top_p but not both.
