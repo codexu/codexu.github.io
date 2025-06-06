@@ -119,8 +119,8 @@ export default defineConfig({
           {
             text: '问题&反馈',
             items: [
-              { text: '常见问题', link: '/zh/faq' },
-              { text: '反馈', link: '/zh/feedback' },
+              { text: '常见问题', link: 'https://github.com/codexu/note-gen/issues/92' },
+              { text: '反馈', link: 'https://github.com/codexu/note-gen/discussions/110' },
               { text: '更新日志', link: 'https://github.com/codexu/note-gen/releases' },
             ]
           }
@@ -197,8 +197,8 @@ export default defineConfig({
           {
             text: 'Issues & Feedback',
             items: [
-              { text: 'FAQ', link: '/en/faq' },
-              { text: 'Feedback', link: '/en/feedback' },
+              { text: 'FAQ', link: 'https://github.com/codexu/note-gen/issues/92' },
+              { text: 'Feedback', link: 'https://github.com/codexu/note-gen/discussions/110' },
               { text: 'Changelog', link: 'https://github.com/codexu/note-gen/releases' },
             ]
           }
