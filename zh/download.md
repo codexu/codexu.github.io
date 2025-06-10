@@ -1,11 +1,20 @@
 # 客户端下载
 
-## 版本信息
+## 官网下载
+
+<div class="button-group">
+  <a href="http://api.upgrade.toolsetlink.com/v1/tauri/download?tauriKey=tyEi-iLVFxnRhGc9c_xApw&target=windows&arch=x86_64" target="_blank">Windows</a>
+  <a href="http://api.upgrade.toolsetlink.com/v1/tauri/download?tauriKey=tyEi-iLVFxnRhGc9c_xApw&target=darwin&arch=aarch64" target="_blank">MacOS (Apple M)</a>
+  <a href="http://api.upgrade.toolsetlink.com/v1/tauri/download?tauriKey=tyEi-iLVFxnRhGc9c_xApw&target=darwin&arch=x86_64" target="_blank">MacOS (Intel)</a>
+  <a href="http://api.upgrade.toolsetlink.com/v1/tauri/download?tauriKey=tyEi-iLVFxnRhGc9c_xApw&target=linux&arch=x86_64" target="_blank">Linux</a>
+</div>
+
+> 下载服务由 [UpgradeLink](http://upgrade.toolsetlink.com/) 支持。
+
+## Github 下载
 
 <h3 v-if="version">{{version}}</h3>
 <p v-else>获取版本信息失败</p>
-
-## 下载列表
 
 <ul v-if="assets" v-for="(item, index) in assets.assets" :key="index">
   <li v-if="!filterAssets.includes(item.name.split('.').pop())">
@@ -58,3 +67,24 @@ getLatestRelease('codexu','note-gen').then(res =>{
   }
 })
 </script>
+
+<style scoped>
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin: 24px 0;
+}
+
+.button-group a {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid var(--vp-button-brand-border);
+  color: var(--vp-button-brand-text);
+  background-color: var(--vp-button-brand-bg);
+  text-decoration: none;
+}
+
+.button-group a:hover {
+  background-color: var(--vp-button-brand-hover-bg);
+}
+</style>
