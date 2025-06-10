@@ -48,22 +48,5 @@ features:
 <FeatureShow />
 
 <script setup>
-import FeatureShow from './components/FeatureShow.vue'
-
-// 检测浏览器语言并重定向到相应的语言版本
-if (typeof window !== 'undefined') {
-  // 获取浏览器首选语言
-  const userLang = navigator.language || navigator.userLanguage;
-  const preferredLang = userLang.toLowerCase().startsWith('zh') ? 'zh' : 'en';
-  
-  // 获取当前路径
-  const currentPath = window.location.pathname;
-  
-  // 仅当在根路径时进行重定向，避免重复重定向
-  if (currentPath === '/' || currentPath === '/index.html') {
-    // 如果用户首选语言是中文，则重定向到中文版首页，否则重定向到英文版首页
-    const targetPath = preferredLang === 'zh' ? '/zh/' : '/en/';
-    window.location.href = targetPath;
-  }
-}
+import FeatureShow from '../components/FeatureShow.vue'
 </script>

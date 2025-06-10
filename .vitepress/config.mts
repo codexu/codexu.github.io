@@ -52,7 +52,7 @@ export default defineConfig({
     root: {
       label: '简体中文',
       lang: 'zh',
-      link: '/zh/guide',
+      link: '/zh',
       themeConfig: {
         nav: [
           {
@@ -130,7 +130,7 @@ export default defineConfig({
     en: {
       label: 'English',
       lang: 'en',
-      link: '/en/guide',
+      link: '/en',
       themeConfig: {
         nav: [
           {
