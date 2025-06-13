@@ -1,4 +1,5 @@
 <template>
+  <img class="feature-intro-img" src="https://s2.loli.net/2025/06/13/UbVGPrhFl3etnQz.png" />
   <div class="feature-intro">
     <h2>{{ headerTexts.title }}</h2>
     <p>{{ headerTexts.subtitle }}</p>
@@ -101,6 +102,10 @@ const items = computed(() => {
 </script>
 
 <style scoped lang="scss">
+.feature-intro-img {
+  width: 100%;
+  margin-top: 86px;
+}
 .feature-intro {
   display: flex;
   flex-direction: column;
