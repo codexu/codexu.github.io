@@ -14,7 +14,8 @@
 ## Mobile Download (alpha)
 
 <div class="button-group">
-  <a href="http://file.notegen.top/NoteGen.ipa" target="_blank">iOS</a>
+  <a href="http://file.notegen.top/note_gen_ios_v0.18.0.ipa" target="_blank">iOS</a>
+  <a href="http://file.notegen.top/note_gen_android_v0.18.0.apk" target="_blank">Android</a>
 </div>
 
 > Mobile is currently in development, not available in any app store, please download and install it yourself to experience it.
