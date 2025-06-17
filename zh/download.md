@@ -3,10 +3,10 @@
 ## 官网下载（beta）
 
 <div class="button-group">
-  <a href="http://api.upgrade.toolsetlink.com/v1/tauri/download?tauriKey=tyEi-iLVFxnRhGc9c_xApw&target=windows&arch=x86_64" target="_blank">Windows</a>
-  <a href="http://api.upgrade.toolsetlink.com/v1/tauri/download?tauriKey=tyEi-iLVFxnRhGc9c_xApw&target=darwin&arch=aarch64" target="_blank">MacOS (Apple M)</a>
-  <a href="http://api.upgrade.toolsetlink.com/v1/tauri/download?tauriKey=tyEi-iLVFxnRhGc9c_xApw&target=darwin&arch=x86_64" target="_blank">MacOS (Intel)</a>
-  <a href="http://api.upgrade.toolsetlink.com/v1/tauri/download?tauriKey=tyEi-iLVFxnRhGc9c_xApw&target=linux&arch=x86_64" target="_blank">Linux</a>
+  <a href="http://api.upgrade.toolsetlink.com/v1/tauri/download?tauriKey=tyEi-iLVFxnRhGc9c_xApw&target=windows&arch=x86_64">Windows</a>
+  <a href="http://api.upgrade.toolsetlink.com/v1/tauri/download?tauriKey=tyEi-iLVFxnRhGc9c_xApw&target=darwin&arch=aarch64">MacOS (Apple M)</a>
+  <a href="http://api.upgrade.toolsetlink.com/v1/tauri/download?tauriKey=tyEi-iLVFxnRhGc9c_xApw&target=darwin&arch=x86_64">MacOS (Intel)</a>
+  <a href="http://api.upgrade.toolsetlink.com/v1/tauri/download?tauriKey=tyEi-iLVFxnRhGc9c_xApw&target=linux&arch=x86_64">Linux</a>
 </div>
 
 > 下载服务由 [UpgradeLink](http://upgrade.toolsetlink.com/) 支持。
@@ -14,8 +14,8 @@
 ## 移动端（alpha）
 
 <div class="button-group">
-  <a href="http://file.notegen.top/note_gen_ios_v0.18.0.ipa" target="_blank">iOS</a>
-  <a href="http://file.notegen.top/note_gen_android_v0.18.0.apk" target="_blank">Android</a>
+  <a href="http://file.notegen.top/note_gen_ios_v0.18.0.ipa">iOS</a>
+  <a href="http://file.notegen.top/note_gen_android_v0.18.0.apk">Android</a>
 </div>
 
 > 移动端目前正在开发状态，未上架任何应用商店，可下载自行安装抢险体验。
