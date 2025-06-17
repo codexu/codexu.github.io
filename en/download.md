@@ -3,10 +3,10 @@
 ## Official Download (beta)
 
 <div class="button-group">
-  <a href="http://api.upgrade.toolsetlink.com/v1/tauri/download?tauriKey=tyEi-iLVFxnRhGc9c_xApw&target=windows&arch=x86_64" download target="_blank">Windows</a>
-  <a href="http://api.upgrade.toolsetlink.com/v1/tauri/download?tauriKey=tyEi-iLVFxnRhGc9c_xApw&target=darwin&arch=aarch64" download target="_blank">MacOS (Apple M)</a>
-  <a href="http://api.upgrade.toolsetlink.com/v1/tauri/download?tauriKey=tyEi-iLVFxnRhGc9c_xApw&target=darwin&arch=x86_64" download target="_blank">MacOS (Intel)</a>
-  <a href="http://api.upgrade.toolsetlink.com/v1/tauri/download?tauriKey=tyEi-iLVFxnRhGc9c_xApw&target=linux&arch=x86_64" download target="_blank">Linux</a>
+  <a href="http://api.upgrade.toolsetlink.com/v1/tauri/download?tauriKey=tyEi-iLVFxnRhGc9c_xApw&target=windows&arch=x86_64">Windows</a>
+  <a href="http://api.upgrade.toolsetlink.com/v1/tauri/download?tauriKey=tyEi-iLVFxnRhGc9c_xApw&target=darwin&arch=aarch64">MacOS (Apple M)</a>
+  <a href="http://api.upgrade.toolsetlink.com/v1/tauri/download?tauriKey=tyEi-iLVFxnRhGc9c_xApw&target=darwin&arch=x86_64">MacOS (Intel)</a>
+  <a href="http://api.upgrade.toolsetlink.com/v1/tauri/download?tauriKey=tyEi-iLVFxnRhGc9c_xApw&target=linux&arch=x86_64">Linux</a>
 </div>
 
 > Download service provided by [UpgradeLink](http://upgrade.toolsetlink.com/), suitable for users in mainland China, if you are in other countries, please use the Github download method.
@@ -14,8 +14,8 @@
 ## Mobile Download (alpha)
 
 <div class="button-group">
-  <a href="http://file.notegen.top/note_gen_ios_v0.18.0.ipa" download target="_blank">iOS</a>
-  <a href="http://file.notegen.top/note_gen_android_v0.18.0.apk" download target="_blank">Android</a>
+  <a href="http://file.notegen.top/note_gen_ios_v0.18.0.ipa">iOS</a>
+  <a href="http://file.notegen.top/note_gen_android_v0.18.0.apk">Android</a>
 </div>
 
 > Mobile is currently in development, not available in any app store, please download and install it yourself to experience it.
