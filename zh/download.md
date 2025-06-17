@@ -14,8 +14,8 @@
 ## 移动端（alpha）
 
 <div class="button-group">
-  <a href="http://file.notegen.top/note_gen_ios_v0.18.0.ipa" target="_blank">iOS</a>
-  <a href="http://file.notegen.top/note_gen_android_v0.18.0.apk" target="_blank">Android</a>
+  <a href="http://notegen.top/note_gen_ios_v0.18.0.ipa" target="_blank">iOS</a>
+  <a href="http://notegen.top/note_gen_android_v0.18.0.apk" target="_blank">Android</a>
 </div>
 
 > 移动端目前正在开发状态，未上架任何应用商店，可下载自行安装抢险体验。
