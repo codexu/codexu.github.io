@@ -1,6 +1,6 @@
 # 客户端下载
 
-## 官网下载
+## 官网下载（beta）
 
 <div class="button-group">
   <a href="http://api.upgrade.toolsetlink.com/v1/tauri/download?tauriKey=tyEi-iLVFxnRhGc9c_xApw&target=windows&arch=x86_64" target="_blank">Windows</a>
@@ -10,6 +10,15 @@
 </div>
 
 > 下载服务由 [UpgradeLink](http://upgrade.toolsetlink.com/) 支持。
+
+## 移动端（alpha）
+
+<div class="button-group">
+  <a href="http://file.notegen.top/NoteGen.ipa" target="_blank">iOS</a>
+</div>
+
+> 移动端目前正在开发状态，未上架任何应用商店，可下载自行安装抢险体验。
+> iOS 目前以 ipa 格式安装，需使用 xcode 等工具进行安装，并信任开发者身份，请自行查询安装方式。
 
 ## Github 下载
 
@@ -25,8 +34,6 @@
   获取下载链接失败，请访问
   <a href="https://github.com/codexu/note-gen/releases">https://github.com/codexu/note-gen/releases</a> 下载。
 </p>
-
-> 
 
 ## 我该下载哪个安装包？
 
