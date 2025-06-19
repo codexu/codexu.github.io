@@ -1,25 +1,26 @@
 # 客户端下载
 
-## 官网下载（beta）
+## 桌面端（beta）
 
-<div class="button-group">
-  <a href="http://api.upgrade.toolsetlink.com/v1/tauri/download?tauriKey=tyEi-iLVFxnRhGc9c_xApw&target=windows&arch=x86_64">Windows</a>
-  <a href="http://api.upgrade.toolsetlink.com/v1/tauri/download?tauriKey=tyEi-iLVFxnRhGc9c_xApw&target=darwin&arch=aarch64">MacOS (Apple M)</a>
-  <a href="http://api.upgrade.toolsetlink.com/v1/tauri/download?tauriKey=tyEi-iLVFxnRhGc9c_xApw&target=darwin&arch=x86_64">MacOS (Intel)</a>
-  <a href="http://api.upgrade.toolsetlink.com/v1/tauri/download?tauriKey=tyEi-iLVFxnRhGc9c_xApw&target=linux&arch=x86_64">Linux</a>
-</div>
+桌面端已完成主要功能的开发，但仍还存在一些 Bug 和不足。
+
+<DownloadDesktop />
 
 > 下载服务由 [UpgradeLink](http://upgrade.toolsetlink.com/) 支持。
 
 ## 移动端（alpha）
 
-<div class="button-group">
-  <a href="http://file.notegen.top/note_gen_ios_v0.18.0.ipa">iOS</a>
-  <a href="http://file.notegen.top/note_gen_android_v0.18.0.apk">Android</a>
-</div>
+移动端目前正在开发状态，未上架任何应用商店，可下载自行安装抢险体验。
 
-> 移动端目前正在开发状态，未上架任何应用商店，可下载自行安装抢险体验。
-> iOS 目前以 ipa 格式安装，需使用 xcode 等工具进行安装，并信任开发者身份，请自行查询安装方式。
+### iOS
+
+<DownloadIos />
+
+目前只能通过 ipa 安装，需使用 xcode 等工具进行安装，并信任开发者身份。
+
+### Android
+
+<DownloadAndroid />
 
 ## Github 下载
 
@@ -60,6 +61,9 @@ Linux: `x86_64.rpm`
 
 <script setup>
 import { getLatestRelease } from '../libs/download.ts'
+import DownloadDesktop from '../components/DownloadDesktop.vue'
+import DownloadIos from '../components/DownloadIos.vue'
+import DownloadAndroid from '../components/DownloadAndroid.vue'
 import { ref } from 'vue'
 
 // 过滤后缀
@@ -75,24 +79,3 @@ getLatestRelease('codexu','note-gen').then(res =>{
   }
 })
 </script>
-
-<style scoped>
-.button-group {
-  display: flex;
-  gap: 10px;
-  margin: 24px 0;
-}
-
-.button-group a {
-  padding: 10px 20px;
-  border-radius: 5px;
-  border: 1px solid var(--vp-button-brand-border);
-  color: var(--vp-button-brand-text);
-  background-color: var(--vp-button-brand-bg);
-  text-decoration: none;
-}
-
-.button-group a:hover {
-  background-color: var(--vp-button-brand-hover-bg);
-}
-</style>

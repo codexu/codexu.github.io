@@ -1,25 +1,25 @@
 # Client Download
 
-## Official Download (beta)
+## Desktop (beta)
 
-<div class="button-group">
-  <a href="http://api.upgrade.toolsetlink.com/v1/tauri/download?tauriKey=tyEi-iLVFxnRhGc9c_xApw&target=windows&arch=x86_64">Windows</a>
-  <a href="http://api.upgrade.toolsetlink.com/v1/tauri/download?tauriKey=tyEi-iLVFxnRhGc9c_xApw&target=darwin&arch=aarch64">MacOS (Apple M)</a>
-  <a href="http://api.upgrade.toolsetlink.com/v1/tauri/download?tauriKey=tyEi-iLVFxnRhGc9c_xApw&target=darwin&arch=x86_64">MacOS (Intel)</a>
-  <a href="http://api.upgrade.toolsetlink.com/v1/tauri/download?tauriKey=tyEi-iLVFxnRhGc9c_xApw&target=linux&arch=x86_64">Linux</a>
-</div>
+<DownloadDesktop />
 
 > Download service provided by [UpgradeLink](http://upgrade.toolsetlink.com/), suitable for users in mainland China, if you are in other countries, please use the Github download method.
 
-## Mobile Download (alpha)
+## Mobile (alpha)
 
-<div class="button-group">
-  <a href="http://file.notegen.top/note_gen_ios_v0.18.0.ipa">iOS</a>
-  <a href="http://file.notegen.top/note_gen_android_v0.18.0.apk">Android</a>
-</div>
+Mobile is currently in development, not available in any app store, please download and install it yourself to experience it.
 
-> Mobile is currently in development, not available in any app store, please download and install it yourself to experience it.
-> iOS is currently installed in ipa format, need to use xcode etc. tools to install, and trust the developer identity, please query the installation method yourself.
+### iOS
+
+<DownloadIos />
+
+Currently installed in ipa format, need to use xcode etc. tools to install, and trust the developer identity.
+
+### Android
+
+<DownloadAndroid />
+
 
 ## Github Download
 
@@ -61,6 +61,9 @@ Linux: `x86_64.rpm`
 
 <script setup>
 import { getLatestRelease } from '../libs/download.ts'
+import DownloadDesktop from '../components/DownloadDesktop.vue'
+import DownloadIos from '../components/DownloadIos.vue'
+import DownloadAndroid from '../components/DownloadAndroid.vue'
 import { ref } from 'vue'
 
 // Filter suffixes
@@ -76,24 +79,3 @@ getLatestRelease('codexu','note-gen').then(res =>{
   }
 })
 </script>
-
-<style scoped>
-.button-group {
-  display: flex;
-  gap: 10px;
-  margin: 24px 0;
-}
-
-.button-group a {
-  padding: 10px 20px;
-  border-radius: 5px;
-  border: 1px solid var(--vp-button-brand-border);
-  color: var(--vp-button-brand-text);
-  background-color: var(--vp-button-brand-bg);
-  text-decoration: none;
-}
-
-.button-group a:hover {
-  background-color: var(--vp-button-brand-hover-bg);
-}
-</style>
