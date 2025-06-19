@@ -1,1 +1,0 @@
-import{_ as a,c as l,o,ae as i}from"./chunks/framework.BtEkjhVd.js";const p=JSON.parse('{"title":"NoteGen","description":"","frontmatter":{},"headers":[],"relativePath":"zh/guide.md","filePath":"zh/guide.md"}'),t={name:"zh/guide.md"};function r(d,e,n,c,h,s){return o(),l("div",null,e[0]||(e[0]=[i("",27)]))}const m=a(t,[["render",r]]);export{p as __pageData,m as default};

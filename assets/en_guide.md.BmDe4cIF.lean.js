@@ -1,0 +1,1 @@
+import{_ as o,c as t,o as i,ae as a}from"./chunks/framework.Dgg8-8ov.js";const g=JSON.parse('{"title":"NoteGen","description":"","frontmatter":{},"headers":[],"relativePath":"en/guide.md","filePath":"en/guide.md"}'),n={name:"en/guide.md"};function r(s,e,l,d,c,u){return i(),t("div",null,e[0]||(e[0]=[a("",38)]))}const p=o(n,[["render",r]]);export{g as __pageData,p as default};
