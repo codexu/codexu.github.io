@@ -4,6 +4,8 @@
 
 <DownloadDesktop />
 
+[History Version](http://download.upgrade.toolsetlink.com/download?appKey=tyEi-iLVFxnRhGc9c_xApw)
+
 > Download service provided by [UpgradeLink](http://upgrade.toolsetlink.com/), suitable for users in mainland China, if you are in other countries, please use the Github download method.
 
 ## Mobile (alpha)

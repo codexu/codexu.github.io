@@ -6,6 +6,8 @@
 
 <DownloadDesktop />
 
+[历史版本](http://download.upgrade.toolsetlink.com/download?appKey=tyEi-iLVFxnRhGc9c_xApw)
+
 > 下载服务由 [UpgradeLink](http://upgrade.toolsetlink.com/) 支持。
 
 ## 移动端（alpha）
