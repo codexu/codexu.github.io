@@ -51,7 +51,11 @@ MacOS with Apple M chip: `aarch64.dmg`
 > NoteGen is not signed yet, so you may see a warning that the file is damaged during installation. Solutions vary depending on your chip:
 > - Intel: Open Mac applications from unidentified developers.
 > - Silicon: Open terminal and run the following command: `sudo xattr -r -d com.apple.quarantine /Applications/NoteGen.app`
-
+  > if you see an error like option -r not recognized, it means your system’s xattr does not support -r. In that case, run these two commands instead:
+  ```
+  sudo xattr -d com.apple.quarantine /Applications/NoteGen.app
+  sudo xattr -d com.apple.quarantine /Applications/NoteGen.app/Contents/MacOS/*
+  ```
 ### Linux
 
 Linux: `x86_64.rpm`
