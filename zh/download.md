@@ -51,7 +51,11 @@ MacOS apple M芯片: `aarch64.dmg`
 > NoteGen 暂未签名，因此安装时会出现文件已损坏的提示，根据不同芯片解决方法如下：
 > - Intel：打开来自未知开发商的 Mac 应用程序。
 > - Silicon：打开终端并运行以下命令：`sudo xattr -r -d com.apple.quarantine /Applications/NoteGen.app`
-
+  > 如果提示错误 option -r not recognized，说明你的系统不支持 -r 参数。请改为运行以下两条命令：
+  ```
+  sudo xattr -d com.apple.quarantine /Applications/NoteGen.app
+  sudo xattr -d com.apple.quarantine /Applications/NoteGen.app/Contents/MacOS/*
+  ```
 ### Linux
 
 Linux: `x86_64.rpm`
