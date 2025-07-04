@@ -8,7 +8,7 @@
 
 [历史版本](http://download.upgrade.toolsetlink.com/download?appKey=tyEi-iLVFxnRhGc9c_xApw)
 
-> 下载服务由 [UpgradeLink](http://upgrade.toolsetlink.com/) 支持。
+> [UpgradeLink 提供应用升级与下载服务](http://upgrade.toolsetlink.com/)。
 
 ## 移动端（alpha）
 
