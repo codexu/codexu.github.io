@@ -105,15 +105,32 @@ export default defineConfig({
           {
             text: '配置指南',
             items: [
-              { text: 'AI', link: '/zh/settings/model-config' },
-              { text: '默认模型', link: '/zh/settings/default-model' },
-              { text: 'Prompt', link: '/zh/settings/prompt' },
-              { text: '整理模板', link: '/zh/settings/organize-template' },
-              { text: '同步', link: '/zh/settings/sync' },
-              { text: '文件管理', link: '/zh/settings/file-manager' },
-              { text: 'OCR', link: '/zh/settings/ocr' },
-              { text: '外观', link: '/zh/settings/appearance' },
-              { text: '开发者', link: '/zh/settings/developer' },
+              {
+                text: '同步相关',
+                items: [
+                  { text: '同步配置', link: '/zh/settings/sync' },
+                  { text: '图床配置', link: '/zh/settings/image-hosting' },
+                  { text: '备用方案', link: '/zh/settings/backup' },
+                ]
+              },
+              {
+                text: '模型相关',
+                items: [
+                  { text: '模型配置', link: '/zh/settings/model-config' },
+                  { text: '默认模型', link: '/zh/settings/default-model' },
+                  { text: '知识库', link: '/zh/settings/rag' },
+                  { text: 'Prompt', link: '/zh/settings/prompt' },
+                  { text: '整理模板', link: '/zh/settings/organize-template' },
+                ]
+              },
+              {
+                text: '其他',
+                items: [
+                  { text: '文件管理', link: '/zh/settings/file-manager' },
+                  { text: 'OCR', link: '/zh/settings/ocr' },
+                  { text: '开发者', link: '/zh/settings/developer' },
+                ]
+              },
             ]
           },
           {
@@ -183,15 +200,34 @@ export default defineConfig({
           {
             text: 'Configuration Guide',
             items: [
-              { text: 'AI', link: '/en/settings/model-config' },
-              { text: 'Default Model', link: '/en/settings/default-model' },
-              { text: 'Prompt', link: '/en/settings/prompt' },
-              { text: 'Organization Template', link: '/en/settings/organize-template' },
-              { text: 'Synchronization', link: '/en/settings/sync' },
-              { text: 'File Management', link: '/en/settings/file-manager' },
-              { text: 'OCR', link: '/en/settings/ocr' },
-              { text: 'Appearance', link: '/en/settings/appearance' },
-              { text: 'Developer', link: '/en/settings/developer' },
+              {
+                text: 'Synchronization Related',
+                items: [
+                  { text: 'Synchronization', link: '/en/settings/sync' },
+                  { text: 'Image Hosting', link: '/en/settings/image-hosting' },
+                  { text: 'Backup Solution', link: '/en/settings/backup' },
+                ]
+              },
+              {
+                text: 'Model Related',
+                items: [
+                  { text: 'Model Configuration', link: '/en/settings/model-config' },
+                  { text: 'Default Model', link: '/en/settings/default-model' },
+                  { text: 'Knowledge Base', link: '/en/settings/rag' },
+                  { text: 'Prompt', link: '/en/settings/prompt' },
+                  { text: 'Organization Template', link: '/en/settings/organize-template' },
+                ]
+              },
+              {
+                text: 'Others',
+                items: [
+                  { text: 'File Management', link: '/en/settings/file-manager' },
+                  { text: 'Editor', link: '/en/settings/editor' },
+                  { text: 'OCR', link: '/en/settings/ocr' },
+                  { text: 'Developer', link: '/en/settings/developer' },
+                  { text: 'Appearance', link: '/en/settings/appearance' },
+                ]
+              },
             ]
           },
           {
