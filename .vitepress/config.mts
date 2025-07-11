@@ -1,4 +1,6 @@
 import { defineConfig } from 'vitepress'
+import zhConfig from '../zh/config.mts'
+import enConfig from '../en/config.mts'
 
 export default defineConfig({
   title: 'NoteGen',
@@ -49,197 +51,17 @@ export default defineConfig({
     ]
   },
   locales: {
-    root: {
+    zh: { 
       label: '简体中文',
       lang: 'zh',
       link: '/zh',
-      themeConfig: {
-        nav: [
-          {
-            text: '指南',
-            link: '/zh/guide'
-          },
-          {
-            text: '下载',
-            link: '/zh/download'
-          },
-          {
-            text: '贡献指南',
-            link: '/zh/CONTRIBUTING.md'
-          },
-          {
-            text: '更新日志',
-            link: 'https://github.com/codexu/note-gen/releases'
-          },
-        ],
-        sidebar: [
-          {
-            text: '从此开始',
-            items: [
-              { text: '项目简介', link: '/zh/guide' },
-              { text: '客户端安装', link: '/zh/download' },
-            ]
-          },
-          {
-            text: '功能介绍',
-            items: [
-              { 
-                text: '记录',
-                items: [
-                  { text: '记录工具', link: '/zh/preview/record' },
-                  { text: 'AI 助手', link: '/zh/preview/chat' },
-                  { text: 'AI 整理', link: '/zh/preview/organize' },
-                ]
-              },
-              { 
-                text: '写作',
-                items: [
-                  { text: '文件管理器', link: '/zh/preview/files' },
-                  { text: 'Markdown 编辑器', link: '/zh/preview/writing' },
-                ]
-              },
-              { text: '全局搜索', link: '/zh/preview/search' },
-              { text: '图床', link: '/zh/preview/image' },
-            ]
-          },
-          {
-            text: '配置指南',
-            items: [
-              {
-                text: '同步相关',
-                items: [
-                  { text: '同步配置', link: '/zh/settings/sync' },
-                  { text: '图床配置', link: '/zh/settings/image-hosting' },
-                  { text: '备用方案', link: '/zh/settings/backup' },
-                ]
-              },
-              {
-                text: '模型相关',
-                items: [
-                  { text: '模型配置', link: '/zh/settings/model-config' },
-                  { text: '默认模型', link: '/zh/settings/default-model' },
-                  { text: '知识库', link: '/zh/settings/rag' },
-                  { text: 'Prompt', link: '/zh/settings/prompt' },
-                  { text: '整理模板', link: '/zh/settings/organize-template' },
-                ]
-              },
-              {
-                text: '其他',
-                items: [
-                  { text: '文件管理', link: '/zh/settings/file-manager' },
-                  { text: 'OCR', link: '/zh/settings/ocr' },
-                  { text: '开发者', link: '/zh/settings/developer' },
-                ]
-              },
-            ]
-          },
-          {
-            text: '问题&反馈',
-            items: [
-              { text: '常见问题', link: 'https://github.com/codexu/note-gen/issues/92' },
-              { text: '反馈', link: 'https://github.com/codexu/note-gen/discussions/110' },
-              { text: '更新日志', link: 'https://github.com/codexu/note-gen/releases' },
-            ]
-          }
-        ]
-      }
+      themeConfig: zhConfig
     },
     en: {
       label: 'English',
       lang: 'en',
       link: '/en',
-      themeConfig: {
-        nav: [
-          {
-            text: 'Guide',
-            link: '/en/guide'
-          },
-          {
-            text: 'Download',
-            link: '/en/download'
-          },
-          {
-            text: 'Contribution Guide',
-            link: '/en/CONTRIBUTING.md'
-          },
-          {
-            text: 'Changelog',
-            link: 'https://github.com/codexu/note-gen/releases'
-          },
-        ],
-        sidebar: [
-          {
-            text: 'Getting Started',
-            items: [
-              { text: 'Introduction', link: '/en/guide' },
-              { text: 'Client Installation', link: '/en/download' },
-            ]
-          },
-          {
-            text: 'Features',
-            items: [
-              { 
-                text: 'Recording',
-                items: [
-                  { text: 'Recording Tools', link: '/en/preview/record' },
-                  { text: 'AI Assistant', link: '/en/preview/chat' },
-                  { text: 'AI Organization', link: '/en/preview/organize' },
-                ]
-              },
-              { 
-                text: 'Writing',
-                items: [
-                  { text: 'File Manager', link: '/en/preview/files' },
-                  { text: 'Markdown Editor', link: '/en/preview/writing' },
-                ]
-              },
-              { text: 'Global Search', link: '/en/preview/search' },
-              { text: 'Image Hosting', link: '/en/preview/image' },
-            ]
-          },
-          {
-            text: 'Configuration Guide',
-            items: [
-              {
-                text: 'Synchronization Related',
-                items: [
-                  { text: 'Synchronization', link: '/en/settings/sync' },
-                  { text: 'Image Hosting', link: '/en/settings/image-hosting' },
-                  { text: 'Backup Solution', link: '/en/settings/backup' },
-                ]
-              },
-              {
-                text: 'Model Related',
-                items: [
-                  { text: 'Model Configuration', link: '/en/settings/model-config' },
-                  { text: 'Default Model', link: '/en/settings/default-model' },
-                  { text: 'Knowledge Base', link: '/en/settings/rag' },
-                  { text: 'Prompt', link: '/en/settings/prompt' },
-                  { text: 'Organization Template', link: '/en/settings/organize-template' },
-                ]
-              },
-              {
-                text: 'Others',
-                items: [
-                  { text: 'File Management', link: '/en/settings/file-manager' },
-                  { text: 'Editor', link: '/en/settings/editor' },
-                  { text: 'OCR', link: '/en/settings/ocr' },
-                  { text: 'Developer', link: '/en/settings/developer' },
-                  { text: 'Appearance', link: '/en/settings/appearance' },
-                ]
-              },
-            ]
-          },
-          {
-            text: 'Issues & Feedback',
-            items: [
-              { text: 'FAQ', link: 'https://github.com/codexu/note-gen/issues/92' },
-              { text: 'Feedback', link: 'https://github.com/codexu/note-gen/discussions/110' },
-              { text: 'Changelog', link: 'https://github.com/codexu/note-gen/releases' },
-            ]
-          }
-        ]
-      }
+      themeConfig: enConfig
     },
   },
 })

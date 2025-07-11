@@ -66,10 +66,10 @@ Linux: `x86_64.rpm`
 32位: `x86-setup.exe`
 
 <script setup>
-import { getLatestRelease } from '../libs/download.ts'
-import DownloadDesktop from '../components/DownloadDesktop.vue'
-import DownloadIos from '../components/DownloadIos.vue'
-import DownloadAndroid from '../components/DownloadAndroid.vue'
+import { getLatestRelease } from '../../libs/download.ts'
+import DownloadDesktop from '../../components/DownloadDesktop.vue'
+import DownloadIos from '../../components/DownloadIos.vue'
+import DownloadAndroid from '../../components/DownloadAndroid.vue'
 import { ref } from 'vue'
 
 // 过滤后缀
