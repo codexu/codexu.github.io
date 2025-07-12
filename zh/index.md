@@ -14,7 +14,7 @@ hero:
   actions:
     - theme: brand
       text: 下载客户端
-      link: /zh/download
+      link: /zh/guide/download
     - theme: alt
       text: 快速入门
       link: /zh/guide

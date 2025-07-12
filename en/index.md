@@ -13,11 +13,14 @@ hero:
     height: 180
   actions:
     - theme: brand
-      text: Get Started
+      text: Download Client
+      link: /en/guide/download
+    - theme: alt
+      text: Quick Start
       link: /en/guide
     - theme: alt
-      text: Download
-      link: /en/download
+      text: Github
+      link: https://github.com/codexu/note-gen
 
 features:
   - title: Lightweight
