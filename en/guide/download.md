@@ -12,16 +12,13 @@
 
 Mobile is currently in development, not available in any app store, please download and install it yourself to experience it.
 
-### iOS
-
-<DownloadIos />
-
-Currently installed in ipa format, need to use xcode etc. tools to install, and trust the developer identity.
-
 ### Android
 
 <DownloadAndroid />
 
+### iOS
+
+Since the developer account has not been registered, the unsigned application can only be used for 7 days. If you hope to experience it on iOS, please compile and install it yourself.
 
 ## Github Download
 
@@ -68,7 +65,6 @@ Linux: `x86_64.rpm`
 <script setup>
 import { getLatestRelease } from '../../libs/download.ts'
 import DownloadDesktop from '../../components/DownloadDesktop.vue'
-import DownloadIos from '../../components/DownloadIos.vue'
 import DownloadAndroid from '../../components/DownloadAndroid.vue'
 import { ref } from 'vue'
 

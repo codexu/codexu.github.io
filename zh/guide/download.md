@@ -14,12 +14,6 @@
 
 移动端目前正在开发状态，未上架任何应用商店，可下载自行安装抢先体验。
 
-### iOS
-
-<DownloadIos />
-
-目前只能通过 ipa 安装，需使用 xcode 等工具进行安装，并信任开发者身份。
-
 ### Android
 
 <DownloadAndroid />
@@ -38,6 +32,10 @@
   获取下载链接失败，请访问
   <a href="https://github.com/codexu/note-gen/releases">https://github.com/codexu/note-gen/releases</a> 下载。
 </p>
+
+### iOS
+
+由于暂未注册开发者账号，未签名的应用仅可使用 7 天，如果希望在 iOS 上体验，请自行编译安装。
 
 ## 我该下载哪个安装包？
 
@@ -68,7 +66,6 @@ Linux: `x86_64.rpm`
 <script setup>
 import { getLatestRelease } from '../../libs/download.ts'
 import DownloadDesktop from '../../components/DownloadDesktop.vue'
-import DownloadIos from '../../components/DownloadIos.vue'
 import DownloadAndroid from '../../components/DownloadAndroid.vue'
 import { ref } from 'vue'
 
