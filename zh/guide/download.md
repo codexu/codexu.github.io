@@ -18,6 +18,10 @@
 
 <DownloadAndroid />
 
+### iOS
+
+由于暂未注册开发者账号，未签名的应用仅可使用 7 天，如果希望在 iOS 上体验，请自行编译安装。
+
 ## Github 下载
 
 <h3 v-if="version">{{version}}</h3>
@@ -32,10 +36,6 @@
   获取下载链接失败，请访问
   <a href="https://github.com/codexu/note-gen/releases">https://github.com/codexu/note-gen/releases</a> 下载。
 </p>
-
-### iOS
-
-由于暂未注册开发者账号，未签名的应用仅可使用 7 天，如果希望在 iOS 上体验，请自行编译安装。
 
 ## 我该下载哪个安装包？
 
